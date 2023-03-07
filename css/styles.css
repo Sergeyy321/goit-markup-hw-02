@@ -71,7 +71,7 @@ font-weight: 500;
  /* address */
 .list .link {
     font-style: normal ;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -81,7 +81,7 @@ font-weight: 500;
 .list .link:hover{color: var(--link-color);}
 .list .link:focus{color: var(--link-color);}
 li{ list-style-type: none;}
-.header-itemone{font-weight: 500;
+.header-itemone{font-weight:500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
