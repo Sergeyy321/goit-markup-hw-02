@@ -68,6 +68,8 @@ font-weight: 500;
     color: var(--second-title-color);
     
 }
+.header-link:hover{color: var(--link-color);}
+.header-link:focus{color: var(--link-color);}
 .address-mail {
     font-style: normal;
         font-weight: 400;
