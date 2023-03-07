@@ -52,8 +52,7 @@ body {
     color: var(--second-title-color);
    
 }
-.header-logo:hover{color: var(--link-color);}
-.header-logo:focus{color: var(--link-color);}
+
 .address {
     font-style: normal
 }
@@ -70,6 +69,7 @@ font-weight: 500;
 }
 .header-link:hover{color: var(--link-color);}
 .header-link:focus{color: var(--link-color);}
+
 .address-mail {
     font-style: normal;
         font-weight: 400;
@@ -78,8 +78,8 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color:var(--main-text-color);
 }
-
-
+.address-mail:hover{color: var(--link-color);}
+.address-mail:focus{color: var();}
 /* solutios */
 
 .solutions-title {
