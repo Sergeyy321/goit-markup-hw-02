@@ -7,7 +7,6 @@ body {
     --main-title-color: rgb(255, 255, 255);
     --extra-title-color:rgb(244, 244, 253) ;   
     --second-title-color: rgb(46, 47, 66);
-    --main-text-color:rgb(67, 68, 85);
     --main-background-color: rgb(64, 75, 191);
     --extra-background-color: rgb(77, 90, 229)   ;
     --link-color: rgb(64, 75, 191) ;
@@ -72,7 +71,7 @@ font-weight: 500;
 .header-link:hover{color: var(--link-color);}
 .header-link:focus{color: var(--link-color);}
  /* address */
-.address-list .link {
+.list .link {
     font-style: normal ;
         font-weight: 400;
         font-size: 16px;
@@ -81,8 +80,8 @@ font-weight: 500;
         color:var(--main-text-color);
         
   }
-.address-list .link:hover{color: var(--link-color);}
-.address-list .link:focus{color: var(--extra-background-color);}
+.list .link:hover{color: var(--link-color);}
+.list .link:focus{color: var(--link-color);}
 li{ list-style-type: none;}
 
 
