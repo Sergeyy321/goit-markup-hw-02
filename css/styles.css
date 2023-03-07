@@ -79,15 +79,11 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--main-text-color);
-        text-decoration: none;
-       
-}
-.list {
-    list-style: none;
+        
   }
 .address-list .link:hover{color: var(--link-color);}
 .address-list .link:focus{color: var(--extra-background-color);}
-
+li{ list-style-type: none;}
 
 
 /* address */
@@ -207,11 +203,11 @@ font-weight: 500;
 }
 
 .title-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
+font-weight: 400;
+ font-size: 16px;
+line-height: 1.5;
+ letter-spacing: 0.02em;
+  color: var(--main-text-color) ;
 }
 /*footer */
 .footer-logo {
