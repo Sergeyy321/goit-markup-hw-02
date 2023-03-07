@@ -18,13 +18,13 @@ body {
     text-decoration: none;
 }
 .list {
-    list-style: none;
+    list-style: none; ;
 }
 
 .link:is( :active) {
     color: var(--link-color)
 }
-/* logo */
+/* title */
 
 .logo {
     
@@ -50,8 +50,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
+   
 }
-
+.header-logo:hover{color: var(--link-color);}
+.header-logo:focus{color: var(--link-color);}
 .address {
     font-style: normal
 }
@@ -75,9 +77,7 @@ font-weight: 500;
         color:var(--main-text-color);
 }
 
-.header-logo {
-font-family: 'Raleway', sans-serif;
-}
+
 /* solutios */
 
 .solutions-title {
