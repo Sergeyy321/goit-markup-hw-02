@@ -88,7 +88,7 @@ font-weight: 500;
 .list .link:hover{color: var(--link-color);}
 .list .link:focus{color: var(--link-color);}
 li{ list-style-type: none;}
-.header-itemone{font-weight:500;
+.header-item{font-weight:500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -137,8 +137,8 @@ li{ list-style-type: none;}
     background: var(--extra-title-color);
     cursor: pointer
 }
- .hero-button-list:hover{color: var(--main-title-color );background-color: var(--main-background-color);}
- .hero-button-list:focus{color: var(--main-title-color);background-color: var(--main-background-color);}
+.hero-list .hero-button-list:hover{color: var(--main-title-color );background-color: var(--main-background-color);}
+.hero-list .hero-button-list:focus{color: var(--main-title-color);background-color: var(--main-background-color);}
 
 .solutions{
     background-color: var(--second-title-color);
