@@ -57,7 +57,12 @@ body {
 }
 
 /* header */
-
+.list{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+    }
 .header-link {
 font-weight: 500;
     font-size: 16px;
@@ -66,8 +71,8 @@ font-weight: 500;
     color: var(--second-title-color);
     
 }
-.header-link:hover{color: var(--link-color);}
-.header-link:focus{color: var(--link-color);}
+.header-link :hover{color: var(--link-color);}
+.header-link :focus{color: var(--link-color);}
  /* address */
 .list .link {
     font-style: normal ;
@@ -211,7 +216,7 @@ line-height: 1.5;
   color: var(--main-text-color) ;
 }
 /*footer */
-.footer-logo {
+.footer-logo{
    
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
