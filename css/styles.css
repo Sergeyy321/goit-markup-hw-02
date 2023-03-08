@@ -123,7 +123,7 @@ li{ list-style-type: none;}
 .solutions-button:hover{background-color: var(--main-background-color);}
 .solutions-button:focus{background-color: var(--main-background-color);}
 
-.hero-button-list button{
+.hero-button-list {
     font-family: var(--paragraph-title-font-family);
     
     font-weight: 500;
@@ -137,8 +137,8 @@ li{ list-style-type: none;}
     background: var(--extra-title-color);
     cursor: pointer
 }
-.hero-button-list button:hover{color: var(--main-title-color );background-color: var(--main-background-color);}
-.hero-button-list button:focus{color: var(--main-title-color);background-color: var(--main-background-color);}
+.hero-button-list :hover{color: var(--main-title-color );background-color: var(--main-background-color);}
+.hero-button-list :focus{color: var(--main-title-color);background-color: var(--main-background-color);}
 
 .solutions{
     background-color: var(--second-title-color);
