@@ -6,13 +6,14 @@ body {
 :root {
     --main-title-color: #ffffff;
     --extra-title-color:#f4f4fd ;   
+    --main-text-color:#434455;
     --second-title-color: #2e2f42;
     --main-background-color: #404bbf;
     --extra-background-color: #4d5ae5   ;
     --link-color: #404bbf ;
     --minor-colour: #e7e9fc ;
     --paragraph-title-font-family: 'Roboto', sans-serif;
-   --main-text-color:#434455;
+   
     
 }
 
