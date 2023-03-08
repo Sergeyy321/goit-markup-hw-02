@@ -19,6 +19,12 @@ body {
 
 .link {
     text-decoration: none;
+    font-style: normal ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--second-title-color);
 }
 
 
@@ -77,15 +83,7 @@ font-weight: 500;
 .header-link :hover{color: var(--link-color);}
 .header-link :focus{color: var(--link-color);}
  /* address */
-.list .link {
-    font-style: normal ;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:var(--second-title-color);
-        
-  }
+
 .list .link:hover{color: var(--link-color);}
 .list .link:focus{color: var(--link-color);}
 li{ list-style-type: none;}
