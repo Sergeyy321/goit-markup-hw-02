@@ -125,7 +125,6 @@ li{ list-style-type: none;}
 
 .hero-button-list {
     font-family: var(--paragraph-title-font-family);
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
